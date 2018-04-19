@@ -3,13 +3,13 @@ type Grade {
     id: Int!
     student_id: Int!
     course_code: Int!
-    grade: Float!
+    rate: Float!
 }
 
 input GradeInput {
     student_id: Int!
     course_code: Int!
-    grade: Float!
+    rate: Float!
 }
 `;
 
